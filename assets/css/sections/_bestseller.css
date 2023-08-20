@@ -27,6 +27,21 @@
 .best-clothes:hover .clothes-none1 {
     display: none; 
 } */
+
+.clothes-none1{
+  
+  transition: opacity 0.3s ease-in-out;
+}
+.clothes-none2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+  .clothes-img:hover .clothes-none2 {
+    opacity: 1;
+  }
    .best-clothes {
     display: flex;
     flex-direction: column;
@@ -43,6 +58,7 @@
 }
   .clothes-img {
     display: inline-block; /* Hoặc display: inline; */
+    position: relative;
 }
   .clothes-items {
     position: absolute;
