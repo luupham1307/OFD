@@ -1,7 +1,7 @@
 
    .bestseller {
     margin: 54px 0;
-    background-color: pink;
+    background-color: #fff;
    }
 
    .bestseller-heading{
@@ -14,22 +14,11 @@
     display: flex;
     flex-direction: column;
 }
-/* .hidden {
-    display: none;
-} */
-   /* .best-clothes:hover .clothes-none1 {
-    display: none; 
-} */
-
-/* .best-clothes:hover .clothes-none2 {
-    display: block; 
+.clothes-details {
+    display: flex;
+    
 }
-.best-clothes:hover .clothes-none1 {
-    display: none; 
-} */
-
 .clothes-none1{
-  
   transition: opacity 0.3s ease-in-out;
 }
 .clothes-none2{
@@ -39,7 +28,7 @@
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
-  .clothes-img:hover .clothes-none2 {
+  .best-clothes:hover .clothes-none2 {
     opacity: 1;
   }
    .best-clothes {
@@ -57,7 +46,7 @@
     position: relative;
 }
   .clothes-img {
-    display: inline-block; /* Hoặc display: inline; */
+    display: inline-block; 
     position: relative;
 }
   .clothes-items {

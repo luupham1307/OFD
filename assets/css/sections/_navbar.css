@@ -111,15 +111,4 @@ font-weight: 600;
 .drop-down a:hover {
     color: #000;
 }
-/* .drop-down {
-    opacity: 0;
-    transition: opacity 0.2s ease, visibility 0.2s ease; 
-  }
-  
-  .nav-menu > .nav-item:hover .drop-down {
-    opacity: 1;
-    visibility: visible; 
-    transition-delay: 0.2s; 
-  }
-   */
- 
+
