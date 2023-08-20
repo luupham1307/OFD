@@ -1,0 +1,68 @@
+
+   .bestseller {
+    margin: 54px 0;
+   }
+
+   .bestseller-heading{
+   display: flex;
+   align-items: center;
+    justify-content:space-between;
+    
+   }
+.best-clothes {
+    display: flex;
+    flex-direction: column;
+}
+/* .hidden {
+    display: none;
+} */
+   /* .best-clothes:hover .clothes-none1 {
+    display: none; 
+} */
+
+.best-clothes:hover .clothes-none2 {
+    display: block; 
+}
+.best-clothes:hover .clothes-none1 {
+    display: none; 
+}
+   .best-clothes {
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem;
+    flex-shrink: 0;
+    flex-basis: 40%;
+  }
+  .best-clothes img {
+    max-width: 257px;
+    max-height: 257px;
+  }
+  .parent-container {
+    position: relative;
+}
+  .clothes-img {
+    display: inline-block; /* Hoặc display: inline; */
+}
+  .clothes-items {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   }
+  .clothes-svg{
+    width: 30px;
+    height: 30px;
+    text-align:right ;
+  }
+  .img-panner {
+    width: 120px;
+    height: 40px;
+  }
+  .clothes-text{
+    font-size: 16px;
+    padding: 13px 0;
+    
+  }
+  .clothes-money {
+    font-weight: 600;
+    font-family: var(--font-ro);
+  }

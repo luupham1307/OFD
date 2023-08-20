@@ -22,6 +22,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <!--swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>OFD</title>
 </head>
 
@@ -302,9 +305,6 @@
 
                                     </div>
                                 </div>
-
-
-
                             </li>
 
                             <li class="nav-item">
@@ -1629,8 +1629,6 @@
                             </li>
                         </ul>
 
-
-
                         <div class="nav-icons">
                             <div class="nav-search">
                                 <a href="">
@@ -1648,9 +1646,6 @@
                             </a>
                             <a href=""></a>
                         </div>
-
-
-
                     </div>
 
                 </div>
@@ -1659,7 +1654,82 @@
 
     </header>
 
+    <!--features  Swiper -->
+    <section class="slider">
+        <div class="container-fluid">
+            <div class="slider-container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
 
+                        <div class="swiper-slide">
+                            <img src="./assets/img/slider/adlv_desktop_3_1_.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/slider/Ecom_1920x700_3_2_1_.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best-seller -->
+    <section class="bestseller">
+        <div class="container">
+            <div class="bestseller-container">
+                <div class="bestseller-heading">
+                    <div>
+                        <h2>BÁN CHẠY</h2>
+                    </div>
+
+                    <div class="">
+                        <a href="">XEM THÊM</a>
+                        <a href=""><i class="fa-solid fa-angle-right "></i></a>
+                    </div>
+                </div>
+
+                <!-- clothes -->
+                <div class="best-clothes">
+                    <!-- img -->
+                    <div class="parent-container">
+                        <div class="clothes-img">
+
+                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                        </div>
+
+                        <div class=" clothes-items">
+                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- cart -->
+                    <div class="clothes-cart">
+                    </div>
+                    <!-- items -->
+                    <div>
+                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png" alt="">
+                        <p class="clothes-text">
+                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                        </p>
+                        <span class="clothes-money">1.790.000 ₫</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/bestseller.js"></script>
 
 </body>
 

@@ -1,0 +1,12 @@
+.swiper-button-next::after {
+    color: #555;
+  }
+
+  /* Đổi màu của nút prev */
+  .swiper-button-prev::after {
+    color: #555;
+  }
+  .swiper-pagination::after {
+    color: #555;
+
+  }

@@ -1,15 +1,23 @@
 .navbar {
     padding: 0 3.125rem;
     font-family: var(--font-mon);
+    position: relative;
+    z-index: 3;
+    background-color: white;
 }
 .navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
 }
+
+
 .nav-logo > img {
 width: 56px;
 height: 56px;
+/* z-index: 2 */
+
 }
 .nav-menu >li {
     display: inline-block;
@@ -45,18 +53,65 @@ font-weight: 600;
   .nav-search:hover {
     background-color: #e5e5e5; 
   }
-  /* content */
- 
-  .sub-menu{
-    margin: 36px 0;
+  /* .nav-menu > li:hover .sub-menu {
     display: flex;
+    opacity: 1;
+    visibility: visible;
+
+  } */
+
+  /* .nav-menu > li:hover .sub-menu,
+.sub-menu:hover {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+  .sub-menu {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    right: 0;
+    z-index: 1; 
+    background-color:#fff;
+    padding: 16px 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
     align-items: flex-start;
     justify-content: space-around;
     font-family: var(--font-ro);
-    position: absolute;
     left: 0;
     width: 100%;
-  }
+    z-index: 1;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+} */
+
+.nav-menu > li:hover .sub-menu,
+.sub-menu:hover {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    right: 0;
+    z-index: 1; 
+    background-color: #fff;
+    padding: 16px 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: var(--font-ro);
+    width: 100%;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+  
 .drop-down p {
     font-size: 14px;
     font-weight: 500;
@@ -69,17 +124,15 @@ font-weight: 600;
 .drop-down a:hover {
     color: #000;
 }
-.drop-down {
+/* .drop-down {
     opacity: 0;
     transition: opacity 0.2s ease, visibility 0.2s ease; 
   }
-  .nav-menu > li:hover .drop-down {
-    display: block;
-  }
+  
   .nav-menu > .nav-item:hover .drop-down {
     opacity: 1;
     visibility: visible; 
     transition-delay: 0.2s; 
   }
-  
-   
+   */
+ 

@@ -1,0 +1,11 @@
+h1,
+h2,
+h3 {
+  font-family: var(--font-mon);
+  /* color: var(--heading-color); */
+  font-weight: 700;
+  font-size: 25px;
+}
+a{
+    color: black;
+}
