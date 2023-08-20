@@ -3,7 +3,6 @@
     margin: 54px 0;
     background-color: #fff;
    }
-
    .bestseller-heading{
    display: flex;
    align-items: center;
@@ -13,11 +12,16 @@
 .best-clothes {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between
 }
+/* jhdgdhsjds */
+
 .clothes-details {
     display: flex;
-    
 }
+
+
 .clothes-none1{
   transition: opacity 0.3s ease-in-out;
 }
@@ -34,13 +38,8 @@
    .best-clothes {
     display: flex;
     flex-direction: column;
-    padding: 1.75rem;
-    flex-shrink: 0;
-    flex-basis: 40%;
-  }
-  .best-clothes img {
-    max-width: 257px;
-    max-height: 257px;
+    padding: 5px;
+   
   }
   .parent-container {
     position: relative;
@@ -51,8 +50,8 @@
 }
   .clothes-items {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 20px;
+    right: 30px;
    }
   .clothes-svg{
     width: 30px;
@@ -64,11 +63,67 @@
     height: 40px;
   }
   .clothes-text{
-    font-size: 16px;
+    font-size: 14px;
     padding: 13px 0;
+    font-weight: 400;
     
   }
   .clothes-money {
     font-weight: 600;
+    font-size: 16px;
     font-family: var(--font-ro);
   }
+
+/* dnbmsnm */
+
+
+  .best-clothes-swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.abc{ 
+    /* overflow-x: scroll; */
+  /* overflow: hidden; */
+
+}
+.best-clothes-swiper{
+  overflow: hidden;
+
+}
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  object-fit: contain;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Navigation Arrows */
+.swiper-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.swiper-navigation .arrow {
+    cursor: pointer;
+}
+
+.arrow img {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-prev {
+    transform: rotate(180deg);
+}
