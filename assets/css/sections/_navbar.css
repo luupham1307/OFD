@@ -53,39 +53,6 @@ font-weight: 600;
   .nav-search:hover {
     background-color: #e5e5e5; 
   }
-  /* .nav-menu > li:hover .sub-menu {
-    display: flex;
-    opacity: 1;
-    visibility: visible;
-
-  } */
-
-  /* .nav-menu > li:hover .sub-menu,
-.sub-menu:hover {
-    display: flex;
-    opacity: 1;
-    visibility: visible;
-}
-  .sub-menu {
-    position: absolute;
-    top: 100%; 
-    left: 0;
-    right: 0;
-    z-index: 1; 
-    background-color:#fff;
-    padding: 16px 0;
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-    align-items: flex-start;
-    justify-content: space-around;
-    font-family: var(--font-ro);
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
-} */
-
 .nav-menu > li:hover .sub-menu,
 .sub-menu:hover {
     display: flex;

@@ -1,6 +1,7 @@
 
    .bestseller {
     margin: 54px 0;
+    background-color: pink;
    }
 
    .bestseller-heading{
@@ -20,12 +21,12 @@
     display: none; 
 } */
 
-.best-clothes:hover .clothes-none2 {
+/* .best-clothes:hover .clothes-none2 {
     display: block; 
 }
 .best-clothes:hover .clothes-none1 {
     display: none; 
-}
+} */
    .best-clothes {
     display: flex;
     flex-direction: column;
