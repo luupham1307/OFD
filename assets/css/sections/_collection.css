@@ -1,0 +1,19 @@
+.tab-container {
+    display: flex;
+    justify-content: space-between;
+}
+.tab-items a {
+    padding: 14px 20px;
+}
+.collection-text {
+    text-align: end;
+}
+
+/* .tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+} */
+
+
