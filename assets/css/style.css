@@ -16,6 +16,7 @@
 @import url("components/_icon.css");
 @import url("components/_rating.css");
 @import url("components/_slider.css");
+@import url("components/_tab.css");
 
 /* Sections */
 @import url("sections/_navbar.css");
