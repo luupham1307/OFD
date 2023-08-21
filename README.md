@@ -1,4 +1,4 @@
-# STYLE GUIDES
+# STYLE GUIDES.
 
 ## COLOR
 
