@@ -9,3 +9,10 @@ h3 {
 a{
     color: black;
 }
+
+h3 {
+    font-family: var(--font-mon);
+    /* color: var(--heading-color); */
+    font-weight: 600;
+    font-size: 25px;
+  }
