@@ -14,7 +14,7 @@ var swiper = new Swiper(".network-img", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    // loop: true,
+    loop: false,
     breakpoints: {
         640: {
             slidesPerView: 2,

@@ -2,18 +2,18 @@
     display: flex;
     justify-content: space-between;
 }
-.tab-items a {
+/* .tab-items a {
     padding: 14px 20px;
-}
+} */
 .collection-text {
     text-align: end;
 }
 
-/* .tab-content {
-    display: none;
+.tab-items button {
+    background-color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+
 }
-.tab-content.active {
-    display: block;
-} */
 
 

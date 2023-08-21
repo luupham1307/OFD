@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!--swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>OFD</title>
@@ -37,7 +38,7 @@
                 <p class="text-sm font-medium">MIỄN PHÍ VẬN CHUYỂN CHO MỌI ĐƠN HÀNG</p>
             </div>
             <!-- navbar -->
-            <nav class="navbar">
+            <nav class="navbar .shadow.shadow-btn">
                 <div class="container-fluid">
                     <div class="navbar-container">
 
@@ -54,7 +55,6 @@
                                 </div>
                                 <div class="sub-details">
                                     <div class="sub-menu">
-
                                         <div class="drop-down">
                                             <p>
                                                 <span>Nổi Bật</span>
@@ -1171,8 +1171,9 @@
             </div>
         </div>
     </section>
-    <!-- best-seller -->
 
+
+    <!-- best-seller -->
     <section class="bestseller">
         <div class="container">
             <div class="bestseller-container">
@@ -1457,7 +1458,6 @@
     </section>
 
     <!-- hàng mới -->
-
     <section class="bestseller">
         <div class="container">
             <div class="bestseller-container">
@@ -1749,15 +1749,303 @@
                         <button class="tab" onclick="changeTab(0)">BABY FACE</button>
                         <button class="tab" onclick="changeTab(1)">ART WORK</button>
                         <button class="tab" onclick="changeTab(2)">LOGO PLAY</button>
-                        <button class="tab" onclick="changeTab(3)">BABY FACE</button>
-                        <button class="tab" onclick="changeTab(4)">TEDDY BEAR</button>
+                        <button class="tab" onclick="changeTab(3)">TEDDY BEAR</button>
                     </div>
 
                 </div>
+
                 <div class="tab-content active">
-                    tab0
                     <div>
                         <img src="./assets/img/collection/collection1.webp" alt="">
+                    </div>
+                    <div class="collection-text">
+                        <a href="">XEM THÊM</a>
+                        <a href=""><i class="fa-solid fa-angle-right "></i></a>
+                    </div>
+
+                    <div class="best-clothes-swiper">
+                        <div class="swiper-navigation">
+                            <div class="arrow arrow-prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="arrow arrow-next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/collection/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/collection/ao2.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="best-clothes ">
+                                    <!-- img -->
+                                    <div class="parent-container">
+                                        <div class="clothes-img">
+                                            <img class="clothes-none1" src="./assets/img/bestseller/ao1.webp" alt="">
+
+                                            <img class="clothes-none2" src="./assets/img/bestseller/ao2.webp" alt="">
+                                        </div>
+                                        <div class=" clothes-items">
+                                            <img class="clothes-svg" src="./assets/img/bestseller/shopping_cart.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+
+                                    <!-- cart -->
+                                    <div class="clothes-cart">
+                                    </div>
+                                    <!-- items -->
+                                    <div>
+                                        <img class="img-panner" src="./assets/img/bestseller/label_ADLV_1__2.png"
+                                            alt="">
+                                        <p class="clothes-text">
+                                            <a href="">ÁO THUN ADLV DIN2LS CREATURE KEM</a>
+                                        </p>
+                                        <span class="clothes-money">1.790.000 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-cl">
+
+                            <div class="swiper-pagination "></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content ">
+                    <div>
+                        <img src="./assets/img/collection/c3.webp" alt="">
                     </div>
                     <div class="collection-text">
                         <a href="">XEM THÊM</a>
@@ -2047,9 +2335,9 @@
                 </div>
 
                 <div class="tab-content ">
-                    tab1
+
                     <div>
-                        <img src="./assets/img/collection/collection1.webp" alt="">
+                        <img src="./assets/img/collection/c44.webp" alt="">
                     </div>
                     <div class="collection-text">
                         <a href="">XEM THÊM</a>
@@ -2337,10 +2625,10 @@
                     </div>
 
                 </div>
+
                 <div class="tab-content ">
-                    tab2
                     <div>
-                        <img src="./assets/img/collection/collection1.webp" alt="">
+                        <img src="./assets/img/collection/c2.webp" alt="">
                     </div>
                     <div class="collection-text">
                         <a href="">XEM THÊM</a>
@@ -2631,19 +2919,6 @@
             </div>
         </div>
     </section>
-
-    <!-- 
-                <div class="tab-content" id="content2">
-                    <img src="./assets/img/collection/c2.webp" alt="">
-                </div>
-
-                <div class="tab-content" id="content3">
-                    <img src="./assets/img/collection/c3.webp" alt="">
-                </div>
-
-                <div class="tab-content" id="content4">
-                    <img src="./assets/img/collection/c44.webp" alt="">
-                </div> -->
 
     <!-- network -->
     <section class="network">
@@ -2654,55 +2929,173 @@
                     <P>Chia sẻ hình ảnh của bạn với ADLV lên <a href="">Facebook</a> hoặc <a href=""> Instagram</a> với
                         hashtag #acmedelavieandyou</P>
                 </div>
-
                 <div class="swiper mySwiper network-img">
                     <div class="swiper-wrapper network-items">
-
-                        <div class="swiper-slide abf">
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
+                            <img src="./assets/img/network/bg1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide img-box">
                             <img src="./assets/img/network/bg1.webp" alt="">
                         </div>
 
-                        <div class="swiper-slide">
+                        <div class="swiper-slide img-box">
                             <img src="./assets/img/network/bg1.webp" alt="">
                         </div>
-
-                        <div class="swiper-slide">
-                            <img src="./assets/img/network/bg1.webp" alt="">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="./assets/img/network/bg1.webp" alt="">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="./assets/img/network/bg1.webp" alt="">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="./assets/img/network/bg1.webp" alt="">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="./assets/img/network/bg1.webp" alt="">
-                        </div>
-
 
                     </div>
 
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+                    <div class="btn-cl">
+
+                    </div>
 
 
 
                 </div>
-
             </div>
         </div>
     </section>
 
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+                <div class="footer-introduce footer-box box-3-1">
+                    <div class="footer-logo">
+                        <img src="./assets/img/logo/Logo Web-02.svg" alt="">
+                    </div>
+                    <h4 class="text-md ">CÔNG TY TNHH OFD VIETNAM</h4>
+                    <p class="text-xs mst">Mã Số Thuế: 0106486365</p>
+                    <p class="text-xs"> Văn Phòng: Tầng 8 tòa nhà Lê Đình, 11Bis Nguyễn Gia Thiều,</p>
+                    <p class="text-xs">phường Võ Thị Sáu, quận 3, TP HCM.</p>
+                    <h4 class="footer-h4">THAM GIA BẢNG TIN CỦA CHÚNG TÔI</h4>
+                    <div>
+                        <div class="footer-search">
+                            <a href="">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                            <input type="email" id="email" name="email" required placeholder="Nhập email của bạn"
+                                style="width: 200px">
+                            <button class=" text-xs footer-btn" type="submit">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-computer footer-box box-1-1">
+                    <h4>CÔNG TY</h4>
+                    <div class="">
+                        <i class="fa-solid fa-caret-right icon-xs"></i>
+                        <a href="">Giới thiệu về OFD</a>
+                    </div>
+
+                    <div class=""><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Tuyển dụng</a>
+                    </div>
+
+                    <div class=""><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Tin thời trang</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Hợp tác nhượng quyền</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Liên hệ</a>
+                    </div>
+
+                    <div class="footer-connect">
+                        <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                        <div class="footer-brand">
+                            <div class="footer-social">
+
+
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <img class="social" src="./assets/img/logo/zalo1.png" alt="">
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-tiktok"></i>
+                                <img class="social" src="./assets/img/logo/shoppe2.png" alt="">
+                                <!-- <img class="social" src="./assets/img/logo/la3.png" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer-customer footer-box box-1-1">
+                    <h4>CHÍNH SÁCH KHÁCH HÀNG</h4>
+                    <div>
+                        <i class="fa-solid fa-caret-right icon-xs"></i>
+                        <a href="">Chính sách khách hàng thân thiết</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Chính sách đổi trả</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Chính sách bảo hành</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Chính sách bảo mật</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Câu hỏi thường gặp</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">Hướng dẫn mua hàng online</a>
+                    </div>
+
+                    <div><i class="fa-solid fa-caret-right icon-xs"></i> <a href="">
+                            Hướng dẫn kiểm tra hạng thẻ thành viên</a>
+                    </div>
+
+                </div>
+
+                <div class="footer-store footer-box box-1-1">
+                    <h4>
+                        THÔNG TIN CỬA HÀNG
+                    </h4>
+                    <div class="store-content">
+                        <div class="store-35">
+                            <div class="store-item">
+                                <i class="fa-solid fa-location-dot icon-xs"></i>
+                                <h5>CỬA HÀNG THỨ 34</h5>
+                            </div>
+
+                            <p>F15 tầng 1 AEON Mall Tân Phú, 30 Bờ Bao Tân Thắng, Phường Sơn Kỳ, TP Hồ Chí Minh</p>
+                        </div>
+
+                        <div class="store-35">
+                            <div class="store-item">
+                                <i class="fa-solid fa-location-dot icon-xs"></i>
+                                <h5>CỬA HÀNG THỨ 35</h5>
+                            </div>
+
+                            <p>F15 tầng 1 AEON Mall Tân Phú, 30 Bờ Bao Tân Thắng, Phường Sơn Kỳ, TP Hồ Chí Minh</p>
+                        </div>
+                    </div>
+                    <div class="all-store">
+                        <h5>XEM TẤT CẢ CÁC CỬA HÀNG</h5>
+                        <i class="fa-solid fa-caret-right icon-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     <script src="./assets/js/slider.js"></script>
     <script src="./assets/js/bestseller.js"></script>
     <script src="./assets/js/network.js"></script>
