@@ -100,8 +100,6 @@ font-weight: 600;
   opacity: 1;
   visibility: visible;
 }
-
-
 .drop-down p {
     font-size: 14px;
     font-weight: 500;
@@ -114,4 +112,29 @@ font-weight: 600;
 .drop-down a:hover {
     color: #000;
 }
+
+.dashboard {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  background-color: #fff;
+  padding: 26px;
+}
+.dashboard-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-icon {
+    text-align: right;
+}
+.dashboard-icon > i {
+  color: #53565a;
+}
+
+.dashboard {
+  display: none;
+}
+
 
