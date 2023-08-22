@@ -1,5 +1,5 @@
 .navbar {
-    padding: 0 3.125rem;
+  padding: 0 var(--container-padding);
     font-family: var(--font-mon);
     position: relative;
     z-index: 3;
@@ -13,7 +13,12 @@
     justify-content: space-between;
     padding: 10px 0;
 }
-
+.navbar-menu-btn {
+  display: none;
+}
+.bars {
+  background: #fff;
+}
 .nav-logo {
   position: relative;
   z-index: 4; 
@@ -23,13 +28,25 @@ width: 56px;
 height: 56px;
 
 }
-.nav-menu >li {
-    display: inline-block;
-    padding: 15px 25px;
+.nav-menu {
+  display: flex;
+  gap: 50px;
 }
+.nav-menu {
+    display: flex;
+    gap: 35px;
+    margin: 20px; 
+}
+
+/* .nav-menu >li {
+    display: inline-block;
+   
+    padding: 15px 25px;
+} */
 .nav-menu a {
 color: #000;
 font-weight: 600;
+/* font-size: 14px; */
 }
 .nav-items {
   text-transform: uppercase;

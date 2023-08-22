@@ -1,0 +1,17 @@
+
+@media (max-width: 1200px)  {
+ }
+@media (max-width: 1024px) {
+    .nav-menu {
+        display: flex;
+        gap: 20px;
+    }
+  }
+  
+@media (max-width: 992px) {
+    .nav-menu {
+        display: none;
+    } 
+    .navbar-menu-btn {
+        display: block;
+      }

@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-  /* base */
-  @import url("_variables.css");
-  @import url("_utilities.css");
-  @import url("_base.css");
-
-  /* Components */
+/* Components */
 @import url("components/_container.css");
 @import url("components/_heading.css");
 @import url("components/_text.css");
@@ -28,3 +23,10 @@
 @import url("sections/_testimonials.css");
 @import url("sections/_bestseller.css");
 @import url("sections/_footer.css");
+
+  /* base */
+  @import url("_variables.css");
+  @import url("_utilities.css");
+  @import url("_base.css");
+  @import url("_responsive.css");
+
