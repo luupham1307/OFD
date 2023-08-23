@@ -1,24 +1,20 @@
 .navbar {
-  padding: 0 var(--container-padding);
+    padding: 0 var(--container-padding);
     font-family: var(--font-mon);
     position: relative;
     z-index: 3;
-    background-color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: var(--shadow-black) ;
 }
-
 .navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 .navbar-menu-btn {
   display: none;
 }
-.bars {
-  background: #fff;
-}
+
 .nav-logo {
   position: relative;
   z-index: 4; 
@@ -32,24 +28,10 @@ height: 56px;
   display: flex;
   gap: 50px;
 }
-.nav-menu {
-    display: flex;
-    gap: 35px;
-    margin: 20px; 
-}
 
-/* .nav-menu >li {
-    display: inline-block;
-   
-    padding: 15px 25px;
-} */
 .nav-menu a {
-color: #000;
+color: var(--primary-color);
 font-weight: 600;
-/* font-size: 14px; */
-}
-.nav-items {
-  text-transform: uppercase;
 }
 .nav-icons {
    display: flex;
@@ -74,32 +56,70 @@ font-weight: 600;
   .nav-search:hover {
     background-color: #e5e5e5; 
   }
-
+.nav-menu {
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 .sub-menu {
   background-color: white;
-  padding: 36px 0;
+  padding: 36px 396px;
   display: none;
   opacity: 0;
   visibility: hidden;
   align-items: flex-start;
   justify-content: space-around;
-  font-family: var(--font-ro);
   position: absolute;
-  left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 1; 
-  animation: mymove .3s ;
+  animation: mymove .3s ; 
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+ 
 }
 
 @keyframes  mymove {
   from {top: 0px;}
-  to {top: 60px;}
+  to {top: 50px;}
 }
 .nav-menu > li:hover .sub-menu {
   display: flex;
   opacity: 1;
   visibility: visible;
 }
+.nav-items a {
+  color: #333;
+  opacity: 1;
+  transition: opacity 0.3s, font-weight 0.3s;
+  position: relative;
+  text-transform: uppercase
+}
+
+.nav-items a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #333;
+  transition: width 0.3s;
+}
+
+.nav-items a:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.nav-items a:hover::after {
+  width: 100%;
+}
+
 .drop-down p {
     font-size: 14px;
     font-weight: 500;
@@ -119,7 +139,6 @@ font-weight: 600;
   right: 0;
   height: 100vh;
   width: 400px;
-  background-color: #fff;
   padding: 26px;
 }
 .dashboard-heading {
@@ -136,5 +155,4 @@ font-weight: 600;
 .dashboard {
   display: none;
 }
-
 
