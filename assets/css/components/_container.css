@@ -9,6 +9,9 @@
     /* padding: 0 var(--container-padding); */
     
   }
-  
+  .swiper-slide video {
+    width: 100%;
+    height: 100%;
+  }
   
   
