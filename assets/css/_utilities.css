@@ -25,3 +25,13 @@
   background-color: var(--bg-color);
 
 }
+
+.header-container > p, .footer {
+background-color: var(--heading-color);
+
+}
+.header-container > p {
+  color: var(--primary-color);
+  
+  }
+  
