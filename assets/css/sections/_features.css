@@ -1,13 +1,18 @@
 .swiper-button-next::after {
-    color: #555;
+  color: #9c9a9a;
+    
+    font-size: 20px !important
+
   }
 
   /* Đổi màu của nút prev */
-  .swiper-button-prev::after {
-    color: #555;
+  .swiper-button-prev::after  {
+    color: #9c9a9a;
+    font-size: 20px !important
   }
   .swiper-pagination::after {
-    color: #555;
+    color: #9c9a9a;
+    font-size: 20px !important;
   }
 
   /* video */
