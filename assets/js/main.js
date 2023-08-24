@@ -1,70 +1,49 @@
 
-// bestseller
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
-
-// collection
-function changeTab(tabIndex) {
-    const tabs = document.querySelectorAll('.tab');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabs.forEach(tab => tab.classList.remove('active'));
-    tabContents.forEach(content => content.classList.remove('active'));
-
-    tabs[tabIndex].classList.add('active');
-    tabContents[tabIndex].classList.add('active');
-}
-
-// slider
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
 
 // bestseller
 var swiper = new Swiper(".best-clothes-swiper", {
     slidesPerView: 5,
-    spaceBetween: 30,
-    // width: false,
+    spaceBetween: 10,
     navigation: {
-        nextEl: ".arrow-next",
-        prevEl: ".arrow-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
 });
+// hang mơi
+var swiper = new Swiper(".new-items", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+// cls
+var swiper = new Swiper(".collection-items", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
 // network
 var swiper = new Swiper(".network-img", {
     slidesPerView: 5,
-    spaceBetween: 30,
+    spaceBetween: 10,
     // centeredSlides: true,
     autoplay: {
         delay: 2500,
@@ -96,9 +75,23 @@ var swiper = new Swiper(".network-img", {
 
 });
 
+
+// collection
+function changeTab(tabIndex) {
+    const tabs = document.querySelectorAll('.tab');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => tab.classList.remove('active'));
+    tabContents.forEach(content => content.classList.remove('active'));
+
+    tabs[tabIndex].classList.add('active');
+    tabContents[tabIndex].classList.add('active');
+}
+
+
+
 // nav-items
 const navItems = document.querySelectorAll('.nav-items a');
-
 navItems.forEach(item => {
     item.addEventListener('mouseenter', () => {
         navItems.forEach(otherItem => {

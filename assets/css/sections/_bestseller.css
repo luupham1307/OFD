@@ -5,8 +5,10 @@
    .bestseller-heading{
    display: flex;
    align-items: center;
-    justify-content:space-between;
-    
+  justify-content:space-between;
+   }
+   .best-seller-text {
+    margin:  25px 0 20px 0;
    }
 .best-clothes {
     display: flex;
@@ -17,8 +19,6 @@
 .clothes-details {
     display: flex;
 }
-
-
 .clothes-none1{
   transition: opacity 0.3s ease-in-out;
 }
@@ -33,14 +33,11 @@
     opacity: 1;
   }
    .best-clothes {
-    /* width: 560px; */
-    max-width: 100%; 
+  max-width: 100%; 
   height: auto;
   object-fit: contain;
-    /* height: auto; */
-    display: flex;
-    flex-direction: column;
-    /* padding: 15px; */
+  display: flex;
+  flex-direction: column;
    
   }
   .parent-container {
@@ -53,22 +50,22 @@
 .clothes-img img {
   width: 100%;
   height: 100%;
-
-  /* height: auto; */
-  object-fit: contain;
+  object-fit: cover;
 }
   .clothes-items {
     position: absolute;
     z-index: 10;
     bottom: 10px;
     right: 25px;
-    /* bottom: 20px;
-    right: 30px; */
    }
   .clothes-svg{
     width: 30px;
     height: 30px;
     text-align:right ;
+  }
+  .clothes-img img {
+    max-width: 300px;
+    height: auto;
   }
   .img-panner {
     width: 100%;
