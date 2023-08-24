@@ -105,7 +105,7 @@ navItems.forEach(item => {
             otherItem.style.fontWeight = 'Medium ';
         });
         item.style.opacity = '1';
-        item.style.fontWeight = 'Semi Bold';
+        item.style.fontWeight = 'Medium ';
     });
 
     item.addEventListener('mouseleave', () => {
