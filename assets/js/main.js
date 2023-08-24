@@ -51,6 +51,7 @@ var swiper = new Swiper(".mySwiper", {
 var swiper = new Swiper(".best-clothes-swiper", {
     slidesPerView: 5,
     spaceBetween: 30,
+    // width: false,
     navigation: {
         nextEl: ".arrow-next",
         prevEl: ".arrow-prev",
