@@ -81,8 +81,6 @@ padding: 31px 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
-
 } */
 
 .footer-social {
@@ -91,7 +89,7 @@ padding: 31px 0;
   }
   
   .footer-social i {
-    margin: 0 10px; /* Điều chỉnh khoảng cách giữa các biểu tượng */
+    margin-right: 15px; /* Điều chỉnh khoảng cách giữa các biểu tượng */
   }
 .footer i {
     font-size: 20px;
