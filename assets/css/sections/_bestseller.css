@@ -33,9 +33,14 @@
     opacity: 1;
   }
    .best-clothes {
+    width: 296px;
+    max-width: 100%; 
+  height: auto;
+  object-fit: contain;
+    /* height: auto; */
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    /* padding: 15px; */
    
   }
   .parent-container {
@@ -44,6 +49,11 @@
   .clothes-img {
     display: inline-block; 
     position: relative;
+}
+.clothes-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
   .clothes-items {
     position: absolute;
@@ -73,6 +83,12 @@
     font-weight: 400;
     
   }
+  .clothes-content {
+    top: 95%;
+    /* bottom: 0; */
+    position: absolute;
+    /* display: ; */
+  }
   .clothes-money {
     font-weight: 500;
     white-space: nowrap;
@@ -86,6 +102,18 @@
     width: 120px;
     height: 40px;
 } */
+.clothes-img {
+  position: relative;
+}
+
+.clothes-img img.social {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
   .best-clothes-swiper {
