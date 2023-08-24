@@ -76,13 +76,23 @@ padding: 31px 0;
     line-height: calc(20 / 14);
     font-weight: 400;
 }
-.footer-social {
-    --grid-cols: 3;
-    display: grid;
-    grid-template-columns: repeat(var(--grid-cols), 2fr);
-    gap: 16px;
+/* .footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
 
-}
+} */
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-social i {
+    margin: 0 10px; /* Điều chỉnh khoảng cách giữa các biểu tượng */
+  }
 .footer i {
     font-size: 20px;
 }
